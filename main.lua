@@ -13,7 +13,7 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "zink Access",
       Subtitle = "Key System",
-      Note = "The key is: meow",
+      Note = "Join Whatsapp Group for Key",
       FileName = "zinkKey", 
       SaveKey = true, 
       GrabKeyFromSite = false,
@@ -162,6 +162,8 @@ TabSettings:CreateSlider({
 })
 
 TabSettings:CreateSection("Menü")
+
+Tabsettings:CreateLabel("https://whatsapp.com/channel/0029Vb8U5jv8aKvRl4Pp1D0P")
 
 TabSettings:CreateButton({
    Name = "Skript schließen",
