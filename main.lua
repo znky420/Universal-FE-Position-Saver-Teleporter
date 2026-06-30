@@ -163,14 +163,15 @@ TabSettings:CreateSlider({
 
 TabSettings:CreateSection("Menü")
 
-Tabsettings:CreateLabel("https://whatsapp.com/channel/0029Vb8U5jv8aKvRl4Pp1D0P")
-
 TabSettings:CreateButton({
    Name = "Skript schließen",
    Callback = function()
       Rayfield:Destroy()
    end,
 })
+
+Tabsettings:CreateLabel("https://whatsapp.com/channel/0029Vb8U5jv8aKvRl4Pp1D0P")
+
 
 Rayfield:Notify({
    Title = "Z I N K geladen",
